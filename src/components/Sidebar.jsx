@@ -33,7 +33,7 @@ const Sidebar = () => {
                     </Link>
                 </div>
 
-                <div className={`flex items-center justify-center gap-3 bg-slate-50 opacity-95 py-3 pl-0 text-black pr-3 rounded-md ${barOpen || 'hidden'}  `}>
+                {/* <div className={`flex items-center justify-center gap-3 bg-slate-50 opacity-95 py-3 pl-0 text-black pr-3 rounded-md ${barOpen || 'hidden'}  `}>
                     <GrSearch />
 
                     <input type="search" placeholder='Search'
@@ -46,7 +46,7 @@ const Sidebar = () => {
                     <GrSearch
                     />
 
-                </div>
+                </div> */}
 
                 {
                     Menus.map((menu, indx) => (
