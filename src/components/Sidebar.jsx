@@ -64,7 +64,7 @@ const Sidebar = () => {
                                     {menu.title}
                                 </span>
 
-                                <span className={`flex ${menu.subMenuOpen ? 'rotate-180 ' : 'rotate-0 '} `}
+                                <span className={`flex duration-300 ${menu.subMenuOpen ? 'rotate-180 ' : 'rotate-0 '} `}
                                     onClick={() => menu.setSubMenuOpen(!menu.subMenuOpen)}>{menu?.downArrow}
                                 </span>
 
