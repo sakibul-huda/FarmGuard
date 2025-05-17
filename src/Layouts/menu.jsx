@@ -79,6 +79,12 @@ export const SideBarMenu = ({ordersOpen,setOrdersOpen,productsOpen,setProductsOp
             icon:<MdOutlineFileCopy/>,
             submenu:false
         },
+        {
+            title:'login',
+            path:'/login',
+            icon:<MdOutlineFileCopy/>,
+            submenu:false
+        },
 
 
 
