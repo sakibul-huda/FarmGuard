@@ -1,15 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../Layouts/Layout";
-import Dashboard from "../Layouts/Dashboard";
-import Products from "../Layouts/Products/Products";
-import AddProduct from "../Layouts/Products/AddProduct";
-import Users from "../Layouts/Users/Users";
-import AddUser from "../Layouts/Users/AddUser";
-import Report from "../Layouts/Reports/Report";
-import Orders from "../Layouts/Orders/Orders";
-import OrderDetail from "../Layouts/Orders/OrderDetail";
-import Account from "../Layouts/Account/Account";
-import Stock from "../Layouts/Stock/Stock";
+import Dashboard from "../Pages/Dashboard/Dashboard";
+import Products from "../Pages/Products/Products";
+import AddProduct from "../Pages/Products/AddProduct";
+import Users from "../Pages/Users/Users";
+import AddUser from "../Pages/Users/AddUser";
+import Report from "../Pages/Reports/Report";
+import Orders from "../Pages/Orders/Orders";
+import OrderDetail from "../Pages/Orders/OrderDetail";
+import Account from "../Pages/Account/Account";
+import Stock from "../Pages/Stock/Stock";
+import Login from "../Authenication/Login";
 
 const router=createBrowserRouter([
     {
@@ -68,6 +69,10 @@ const router=createBrowserRouter([
             {
                 path:'/account',
                 element:<Account/>
+            },
+            {
+                path:'/login',
+                element:<Login/>
             },
         ]
     }

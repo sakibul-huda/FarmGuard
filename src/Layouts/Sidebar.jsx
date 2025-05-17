@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { BsArrowLeftShort } from "react-icons/bs";
-import { GrSearch } from "react-icons/gr";
+// import { GrSearch } from "react-icons/gr";
 
-import './CSS/Sidebar.css'
+import './../CSS/Sidebar.css'
 import { SideBarMenu } from './menu';
 
 
