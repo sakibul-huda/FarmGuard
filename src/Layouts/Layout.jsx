@@ -4,10 +4,10 @@ import Sidebar from './../components/Sidebar';
 
 const Layout = () => {
     return (
-        <>
-            <Sidebar/>
+        <div className='flex gap-2 '>
+            <Sidebar />
             <Outlet/>
-        </>
+        </div>
     );
 };
 
